@@ -1,0 +1,17 @@
+Kelas1
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lgbCteNLPq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Kelas2
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yrps4LMkJ7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Kelas3
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QaB2ETdhSY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Kelas4
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CuZkrtdplNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Kelas5
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4VFsHwtJY30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Kelas6
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vu3EvxNX7Y8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
