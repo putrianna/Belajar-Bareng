@@ -23,4 +23,12 @@ Ipa Kelas 8 https://youtu.be/k7Li73GFlKw
 Ipa Kelas 9 https://youtu.be/yDK89JvvteM
 
 SMA
-SMA IPA FISIKA https://youtu.be/6JEoB_2Jy4k
+IPA Kelas 1 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6JEoB_2Jy4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+IPA Kelas 2
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VCVTK5yzo0g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+IPA Kelas 3
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JVmuwo51cEg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
