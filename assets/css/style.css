@@ -1,0 +1,34 @@
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.display-6 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.bg-transparents {
+  transition: 1s ease;
+  background: transparent;
+}
+.scrolled {
+  background-image: url("../../1.png");
+}
+.min-top {
+  margin-top: -55px;
+}
+.min-jumbotron {
+  margin-bottom: 0;
+}
+.bg-img-1 {
+  background-image: url("../../1.png");
+  background-size: initial;
+}
+.bg-img-2 {
+  background-image: url("../../2.png");
+}
+.bg-img-3 {
+  background-image: url("../../3.png");
+  background-position: bottom;
+}
