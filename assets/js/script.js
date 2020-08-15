@@ -16,10 +16,10 @@ const getData = () =>{
 
         $.each(okoc2, (i, data) =>{
             $('#mentor-list').append(`
-            <div class="col-lg-2">
+            <div class="col-lg-2 tengah">
                 <figure>
                     <img src="${data.img}" class="rounded-circle img-fluid">
-                    <figcaption><h1>${data.nama}</h1></figcaption>
+                    <figcaption><h3>${data.nama}</h3></figcaption>
                 </figure>
             </div>
             `)
