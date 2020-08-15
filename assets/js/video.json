@@ -30,5 +30,32 @@
             "kelas": "6",
             "video": "https://www.youtube.com/embed/Vu3EvxNX7Y8"
         }
+    ],
+    "mentor": [
+        {
+            "id": 1,
+            "nama": "LEARNING SDMUPAT",
+            "img": "assets/mentor/SD-1.jpg"
+        },
+        {
+            "id": 2,
+            "nama": "Mari Belajar",
+            "img": "assets/mentor/SD-2.jpg"
+        },
+        {
+            "id": 3,
+            "nama": "Dunia Anak SD",
+            "img": "assets/mentor/SD-3.jpg"
+        },
+        {
+            "id": 4,
+            "nama": "Nita Cahyo",
+            "img": "assets/mentor/SD-4.jpg"
+        },
+        {
+            "id": 5,
+            "nama": "Muhammad Ilham04",
+            "img": "assets/mentor/SD-6.jpg"
+        }
     ]
 }
