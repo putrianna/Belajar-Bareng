@@ -1,51 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
-  font-family: "Quicksand", sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .dddd {
-  font-family: "Quicksand", sans-serif;
-  font-size: 20px;
-  text-align: justify;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    text-align: justify;
 }
 .display-5 {
-  font-size: 2.5rem;
-  font-weight: 300;
-  line-height: 1.2;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
 }
 .display-6 {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.2;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
 }
 .bg-transparents {
-  transition: 1s ease;
-  background: transparent;
+    transition: 1s ease;
+    background: transparent;
 }
 .scrolled {
-  background-image: url("../../1.png");
+    background-image: url("./../images/1.png");
 }
 .min-top {
-  margin-top: -55px;
+    margin-top: -55px;
 }
 .min-jumbotron {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 .bg-img-1 {
-  background-image: url("../../1.png");
-  background-size: initial;
+    background-image: url("./../images/1.png");
+    background-size: initial;
 }
 .bg-img-2 {
-  background-image: url("../../2.png");
+    background-image: url("./../images/2.png");
 }
 .bg-img-3 {
-  background-image: url("../../3.png");
-  background-position: bottom;
+    background-image: url("./../images/3.png");
+    background-position: bottom;
 }
