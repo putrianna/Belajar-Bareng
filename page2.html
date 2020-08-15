@@ -7,8 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Hello, world!</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Belajar Bareng</title>
+    <link rel="stylesheet" href="./assets/css/page2.css">
     <style>
     </style>
   </head>
@@ -23,7 +23,7 @@
                 </button>
             </div>
             <div class="col-md-4 collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
+              <div class="navbar-nav font-cal">
 
                 <a class="nav-item nav-link cal" href="#kelas1">Kelas 1</a>
                 <a class="nav-item nav-link cal" href="#kelas2">Kelas 2</a>
@@ -38,57 +38,20 @@
     </header>
     <main>
         <div class="content">
-            <section id="about" class="container-fluid pb-175">
+            <section id="about" class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center pt-175">
                         <h2 class="font-cam">BELAJAR BERSAMA KAMI LEBIH MUDAH</h2>
                         <h3 class="font-nir">karena kami hadir membawa solusi</h3>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="icon-1.png">
+                        <img src="./assets/images/icon-1.png">
                     </div>
                 </div>
             </section>
             <section id="video" class="mt-100 pt-150">
-                <h1 class="text-center">Kategori Kelas SD</h1>
-                <div class="row justify-content-center pt-5 pb-5" id="kelas1">
-                    <figure class="text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/lgbCteNLPq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <figcaption><h3>Materi SD Kelas 1</h3></figcaption>
-                    </figure>
-                </div>
-                <div class="row justify-content-center pt-5 pb-5" id="kelas2">
-                    <figure class="text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/m-aeHVDLj2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <figcaption><h3 class="font-cal">Materi SD Kelas 1 - 3</h3></figcaption>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yrps4LMkJ7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <figcaption><h3>Materi SD Kelas 2</h3></figcaption>
-                    </figure>
-                </div>
-                <div class="row justify-content-center pt-5 pb-5" id="kelas3">
-                    <figure class="text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QaB2ETdhSY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <figcaption><h3>Materi SD Kelas 3</h3></figcaption>
-                    </figure>
-                </div>
-                <div class="row justify-content-center pt-5 pb-5" id="kelas4">
-                    <figure class="text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CuZkrtdplNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <figcaption><h3>Materi SD Kelas 4</h3></figcaption>
-                    </figure>
-                </div>
-                <div class="row justify-content-center pt-5 pb-5" id="kelas5">
-                    <figure class="text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4VFsHwtJY30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <figcaption><h3>Materi SD Kelas 5</h3></figcaption>
-                    </figure>
-                </div>
-                <div class="row justify-content-center pt-5 pb-5" id="kelas6">
-                    <figure class="text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Vu3EvxNX7Y8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <figcaption><h3>Materi SD Kelas 6</h3></figcaption>
-                    </figure>
-                </div>
+                <h1 class="text-center font-dej">Kategori Kelas SD</h1>
+                <div id="video-list"></div>
             </section>
         </div>
         <aside class="pt-100 pb-100">
@@ -143,7 +106,7 @@
                 <div class="col-md-10"></div>
                 <div class="col-md-2 align-self-end text-center font-nir">
                     <h3>Kantor:</h3>
-                    <h3>Surabaya, Jawa Timur</h3>
+                    <h5>Surabaya, Jawa Timur</h5>
                   </div>
             </div>
         </div>
@@ -151,8 +114,9 @@
         
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

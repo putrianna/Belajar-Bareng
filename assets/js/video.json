@@ -1,0 +1,34 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "kelas": "1",
+            "video": "https://www.youtube.com/embed/lgbCteNLPq0"
+        },
+        {
+            "id": 2,
+            "kelas": "2",
+            "video": "https://www.youtube.com/embed/Yrps4LMkJ7E"
+        },
+        {
+            "id": 3,
+            "kelas": "3",
+            "video": "https://www.youtube.com/embed/QaB2ETdhSY4"
+        },
+        {
+            "id": 4,
+            "kelas": "4",
+            "video": "https://www.youtube.com/embed/CuZkrtdplNg"
+        },
+        {
+            "id": 5,
+            "kelas": "5",
+            "video": "https://www.youtube.com/embed/4VFsHwtJY30"
+        },
+        {
+            "id": 6,
+            "kelas": "6",
+            "video": "https://www.youtube.com/embed/Vu3EvxNX7Y8"
+        }
+    ]
+}

@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 @font-face{
     font-family: "Kristen";
-    src: url('./ITCKRIST.ttf');
+    src: url('./fonts/ITCKRIST.ttf');
 }
 @font-face{
     font-family: "California";
-    src: url('./CALIFI.TTF');
+    src: url('./fonts/CALIFI.TTF');
 }
 @font-face{
     font-family: "Cambria";
-    src: url('./CAMBRIAZ.TTF');
+    src: url('./fonts/CAMBRIAZ.TTF');
 }
 @font-face{
     font-family: "Nirmala";
-    src: url('./Nirmala.ttf');
+    src: url('./fonts/Nirmala.ttf');
 }
 @font-face{
     font-family: "Dejavu";
-    src: url('./DejaVuSans.ttf');
+    src: url('./fonts/DejaVuSans.ttf');
 }
 
 body{
