@@ -20,7 +20,12 @@
     src: url("./fonts/DejaVuSans.ttf");
 }
 
-body {
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     background-image: url("./../images/1.png");
@@ -35,25 +40,29 @@ aside {
     background-image: url("./../images/3.png");
     background-repeat: no-repeat;
 }
+
+.font-cal,
+.font-cam,
+.font-dej,
+.font-kris,
+.font-nir{
+    color: #673de4;
+}
+
 .font-dej {
     font-family: Dejavu;
-    color: #673de4;
 }
 .font-nir {
     font-family: Nirmala;
-    color: #673de4;
 }
 .font-cam {
     color: #673de4;
-    font-family: Cambria;
 }
 .font-cal {
     font-family: California;
-    color: #673de4;
 }
 .font-kris {
     font-family: Kristen;
-    color: #673de4;
 }
 html {
     scroll-behavior: smooth;
