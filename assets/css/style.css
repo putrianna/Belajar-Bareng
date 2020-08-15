@@ -49,3 +49,6 @@ body {
     background-image: url("./../images/3.png");
     background-position: bottom;
 }
+.text-theme {
+    color: #7b51dd;
+}
