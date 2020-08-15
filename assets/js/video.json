@@ -1,0 +1,61 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "kelas": "1",
+            "video": "https://www.youtube.com/embed/lgbCteNLPq0"
+        },
+        {
+            "id": 2,
+            "kelas": "2",
+            "video": "https://www.youtube.com/embed/Yrps4LMkJ7E"
+        },
+        {
+            "id": 3,
+            "kelas": "3",
+            "video": "https://www.youtube.com/embed/QaB2ETdhSY4"
+        },
+        {
+            "id": 4,
+            "kelas": "4",
+            "video": "https://www.youtube.com/embed/CuZkrtdplNg"
+        },
+        {
+            "id": 5,
+            "kelas": "5",
+            "video": "https://www.youtube.com/embed/4VFsHwtJY30"
+        },
+        {
+            "id": 6,
+            "kelas": "6",
+            "video": "https://www.youtube.com/embed/Vu3EvxNX7Y8"
+        }
+    ],
+    "mentor": [
+        {
+            "id": 1,
+            "nama": "LEARNING SDMUPAT",
+            "img": "assets/mentor/SD-1.jpg"
+        },
+        {
+            "id": 2,
+            "nama": "Mari Belajar",
+            "img": "assets/mentor/SD-2.jpg"
+        },
+        {
+            "id": 3,
+            "nama": "Dunia Anak SD",
+            "img": "assets/mentor/SD-3.jpg"
+        },
+        {
+            "id": 4,
+            "nama": "Nita Cahyo",
+            "img": "assets/mentor/SD-4.jpg"
+        },
+        {
+            "id": 5,
+            "nama": "Muhammad Ilham04",
+            "img": "assets/mentor/SD-6.jpg"
+        }
+    ]
+}
