@@ -57,5 +57,58 @@
             "nama": "Muhammad Ilham04",
             "img": "assets/mentor/SD-6.jpg"
         }
+    ],
+    "videos2": [
+        {
+            "id": 1,
+            "kelas": "1",
+            "video": "https://www.youtube.com/embed/H-EB_KocNRY"
+        },
+        {
+            "id": 2,
+            "kelas": "2",
+            "video": "https://www.youtube.com/embed/k7Li73GFlKw"
+        },
+        {
+            "id": 3,
+            "kelas": "3",
+            "video": "https://www.youtube.com/embed/yDK89JvvteM"
+        }
+    ],
+    "mentor2": [
+        {
+            "id": 1,
+            "nama": "Saung Edukasi",
+            "img": "assets/mentor/SMP-1.jpg"
+        }
+    ],
+    "videos3": [
+        {
+            "id": 1,
+            "kelas": "1",
+            "video": "https://www.youtube.com/embed/6JEoB_2Jy4k"
+        },
+        {
+            "id": 2,
+            "kelas": "2",
+            "video": "https://www.youtube.com/embed/VCVTK5yzo0g"
+        },
+        {
+            "id": 3,
+            "kelas": "3",
+            "video": "https://www.youtube.com/embed/JVmuwo51cEg"
+        }
+    ],
+    "mentor3": [
+        {
+            "id": 1,
+            "nama": "SmarterIndo",
+            "img": "assets/mentor/SMA-1.jpg"
+        },
+        {
+            "id": 2,
+            "nama": "Dan Fullerton",
+            "img": "assets/mentor/SMA-2.jpg"
+        }
     ]
 }
