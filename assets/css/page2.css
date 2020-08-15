@@ -1,24 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
-@font-face{
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@font-face {
     font-family: "Kristen";
-    src: url('./fonts/ITCKRIST.ttf');
+    src: url("./fonts/ITCKRIST.ttf");
 }
-@font-face{
+@font-face {
     font-family: "California";
-    src: url('./fonts/CALIFI.TTF');
+    src: url("./fonts/CALIFI.TTF");
 }
-@font-face{
+@font-face {
     font-family: "Cambria";
-    src: url('./fonts/CAMBRIAZ.TTF');
+    src: url("./fonts/CAMBRIAZ.TTF");
 }
-@font-face{
+@font-face {
     font-family: "Nirmala";
-    src: url('./fonts/Nirmala.ttf');
+    src: url("./fonts/Nirmala.ttf");
 }
-@font-face{
+@font-face {
     font-family: "Dejavu";
-    src: url('./fonts/DejaVuSans.ttf');
+    src: url("./fonts/DejaVuSans.ttf");
 }
+
 *{
     
     box-sizing: border-box;
@@ -27,18 +28,19 @@ body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    background-image: url('./1.png');
+    background-image: url("./../images/1.png");
     background-repeat: no-repeat;
     height: 655px;
 }
-#video{
-    background-image: url('./2.png');
+#video {
+    background-image: url("./../images/2.png");
     background-repeat: no-repeat;
 }
-aside{
-    background-image: url('./3.png');
+aside {
+    background-image: url("./../images/3.png");
     background-repeat: no-repeat;
 }
+
 .font-cal,
 .font-cam,
 .font-dej,
@@ -46,69 +48,70 @@ aside{
 .font-nir{
     color: #673de4;
 }
-.font-dej{
+
+.font-dej {
     font-family: Dejavu;
 }
-.font-nir{
+.font-nir {
     font-family: Nirmala;
 }
-.font-cam{
+.font-cam {
     color: #673de4;
 }
-.font-cal{
+.font-cal {
     font-family: California;
 }
-.font-kris{
+.font-kris {
     font-family: Kristen;
 }
-html{
+html {
     scroll-behavior: smooth;
 }
-.pt-200{
+.pt-200 {
     padding-top: 200px;
 }
-.pt-100{
+.pt-100 {
     padding-top: 100px;
 }
-.pt-150{
+.pt-150 {
     padding-top: 150px;
 }
-.pt-175{
+.pt-175 {
     padding-top: 175px;
 }
-.pl-100{
+.pl-100 {
     padding-left: 100px;
 }
-.pl-125{
+.pl-125 {
     padding-left: 100px;
 }
-.pr-100{
+.pr-100 {
     padding-right: 100px;
 }
-.pb-100{
+.pb-100 {
     padding-bottom: 100px;
 }
-.pb-150{
+.pb-150 {
     padding-bottom: 150px;
 }
-.pb-175{
+.pb-175 {
     padding-bottom: 175px;
 }
-.pb-200{
+.pb-200 {
     padding-bottom: 200px;
 }
-.mt-100{
+.mt-100 {
     margin-top: 100px;
 }
-.mt-200{
+.mt-200 {
     margin-top: 200px;
 }
-.mb-200{
+.mb-200 {
     margin-bottom: 200px;
 }
-.ml-100{
+.ml-100 {
     margin-right: 100px;
 }
-.mr-100{
+.mr-100 {
     margin-right: 100px;
 }
