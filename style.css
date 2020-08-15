@@ -15,19 +15,43 @@
     font-family: "Nirmala";
     src: url('./Nirmala.ttf');
 }
-.nir{
+@font-face{
+    font-family: "Dejavu";
+    src: url('./DejaVuSans.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./1.png');
+    background-repeat: no-repeat;
+    height: 655px;
+}
+#video{
+    background-image: url('./2.png');
+    background-repeat: no-repeat;
+}
+aside{
+    background-image: url('./3.png');
+    background-repeat: no-repeat;
+}
+.font-dej{
+    font-family: Dejavu;
+    color: #673de4;
+}
+.font-nir{
     font-family: Nirmala;
     color: #673de4;
 }
-.cam{
+.font-cam{
     color: #673de4;
     font-family: Cambria;
 }
-.cal{
+.font-cal{
     font-family: California;
     color: #673de4;
 }
-.kris{
+.font-kris{
     font-family: Kristen;
     color: #673de4;
 }
@@ -37,17 +61,29 @@ html{
 .pt-200{
     padding-top: 200px;
 }
+.pt-100{
+    padding-top: 100px;
+}
 .pt-150{
     padding-top: 150px;
 }
+.pt-175{
+    padding-top: 175px;
+}
 .pl-100{
     padding-left: 100px;
+}
+.pr-100{
+    padding-right: 100px;
 }
 .pb-100{
     padding-bottom: 100px;
 }
 .pb-150{
     padding-bottom: 150px;
+}
+.pb-175{
+    padding-bottom: 175px;
 }
 .pb-200{
     padding-bottom: 200px;
@@ -60,4 +96,10 @@ html{
 }
 .mb-200{
     margin-bottom: 200px;
+}
+.ml-100{
+    margin-right: 100px;
+}
+.mr-100{
+    margin-right: 100px;
 }
