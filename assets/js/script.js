@@ -1,4 +1,4 @@
-$.getJSON('video.json', (data) =>{
+$.getJSON('./assets/js/video.json', (data) =>{
     let okoc = data.videos;
     $.each(okoc, (i, data)=>{
         $('#video-list').append(`
