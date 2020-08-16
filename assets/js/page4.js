@@ -1,6 +1,3 @@
-$('#sma').on('click', () =>{
-    renderPage4();
-})
 
 const renderPage4 = () =>{
     $('main').html('');
@@ -31,11 +28,11 @@ const renderPage4 = () =>{
     </aside>
     `);
 
-    getData();
+    getData4();
 }
 
 
-const getData = () => {
+const getData4 = () => {
     $.getJSON("./assets/js/video.json", (data) => {
         let vsma = data.videos3;
         let vsma2 = data.mentor3;
@@ -67,3 +64,9 @@ const getData = () => {
         });
     });
 };
+
+
+
+$('#sma').on('click', () =>{
+    renderPage4();
+})

@@ -1,7 +1,3 @@
-$('#smp').on('click', () =>{
-    renderPage3();
-})
-
 const renderPage3 = () =>{
     $('main').html('');
 
@@ -31,10 +27,10 @@ const renderPage3 = () =>{
     </aside>
     `);
 
-    getData();
+    getData3();
 }
 
-const getData = () => {
+const getData3 = () => {
     $.getJSON("./assets/js/video.json", (data) => {
         let vsmp = data.videos2;
         let vsmp2 = data.mentor2;
@@ -68,3 +64,6 @@ const getData = () => {
     });
 };
 
+$('#smp').on('click', () =>{
+    renderPage3();
+})

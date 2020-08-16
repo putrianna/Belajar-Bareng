@@ -41,10 +41,10 @@ const renderPage2 = () =>{
 
     `);
 
-    getData();
+    getData2();
 }
 
-const getData = () => {
+const getData2 = () => {
     $.getJSON("./assets/js/video.json", (data) => {
         let okoc = data.videos;
         let okoc2 = data.mentor;
