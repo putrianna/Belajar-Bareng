@@ -1,12 +1,7 @@
-var cacheName = 'belajar-bareng';
+var cacheName = 'hello-world-page';
 var filesToCache = [
   '/',
   '/index.html',
-  '/page2.html',
-  '/page3.html',
-  '/page4.html',
-  '/assets/css/page2.css',
-  '/assets/script.js',
   '/assets/css/style.css'
 ];
 self.addEventListener('install', function(e) {
