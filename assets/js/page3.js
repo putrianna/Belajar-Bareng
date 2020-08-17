@@ -1,4 +1,5 @@
 const renderPage3 = () =>{
+    $('#ok-navbar').html('');
     $('main').html('');
 
     $('main').append(`
@@ -34,6 +35,14 @@ const getData3 = () => {
     $.getJSON("./assets/js/video.json", (data) => {
         let vsmp = data.videos2;
         let vsmp2 = data.mentor2;
+
+        $.each(vsmp, (i, data) => {
+            $("#ok-navbar").append(`
+                <li class="nav-item">
+                    <a class="nav-link" href="#kelas${data.kelas}">kelas ${data.kelas}</a>
+                </li>
+            `);
+        });
 
         $.each(vsmp, (i, data) => {
             $("#video-list2").append(`

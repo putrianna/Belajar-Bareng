@@ -1,5 +1,6 @@
 
 const renderPage4 = () =>{
+    $('#ok-navbar').html('');
     $('main').html('');
 
     $('main').append(`
@@ -37,6 +38,14 @@ const getData4 = () => {
         let vsma = data.videos3;
         let vsma2 = data.mentor3;
         
+        $.each(vsma, (i, data) => {
+            $("#ok-navbar").append(`
+                <li class="nav-item">
+                    <a class="nav-link" href="#kelas${data.kelas}">kelas ${data.kelas}</a>
+                </li>
+            `);
+        });
+
         $.each(vsma, (i, data) => {
             $("#video-list3").append(`
             <div class="row justify-content-center pt-5 pb-5 font-cal" id="kelas${data.kelas}">

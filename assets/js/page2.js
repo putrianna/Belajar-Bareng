@@ -3,6 +3,7 @@ $('#sd').on('click', () =>{
 })
 
 const renderPage2 = () =>{
+    $('#ok-navbar').html('');
     $('main').html('');
 
     $('main').append(`
@@ -48,6 +49,14 @@ const getData2 = () => {
     $.getJSON("./assets/js/video.json", (data) => {
         let okoc = data.videos;
         let okoc2 = data.mentor;
+    
+        $.each(okoc, (i, data) => {
+            $("#ok-navbar").append(`
+                <li class="nav-item">
+                    <a class="nav-link" href="#kelas${data.kelas}">kelas ${data.kelas}</a>
+                </li>
+            `);
+        });
 
         $.each(okoc, (i, data) => {
             $("#video-list").append(`
