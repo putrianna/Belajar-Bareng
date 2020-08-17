@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="manifest" href="./manifest.json">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <meta name="theme-color" content="#fff" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Belajar Bareng - Kategori SD</title>
+    <link rel="shortcut icon" href="./assets/icons/icon-128x128.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="text-theme">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-custom bg-transparents min-bar">
+        <div class="container">
+            <a class="navbar-brand font-kris" href="index.html">Belajar Bareng</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas1">Kelas 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas2">Kelas 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas3">Kelas 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas4">Kelas 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas5">Kelas 5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas6">Kelas 6</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="min-top">
+        <div class="jumbotron jumbotron-fluid pt-6 bg-img-1 min-jumbotron">
+            <div class="container">
+
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center">
+
+                        <h4 class=" font-cam">BELAJAR BERSAMA KAMI LEBIH MUDAH</h4>
+                        <h1 class="display-6 font-nir">Karena Kami Hadir Membawa Solusi
+                        </h1>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="./assets/images/icon-SD.png" alt="..." class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-grad-1 pb-5">
+            <div class="container pt-5" id="belajar">
+                <h3 class="text-center mb-3 font-dej">Kategori SD</h3>
+                <div id="video-list"></div>
+            </div>
+
+        </div>
+
+        <div class="bg-img-2 pb-5">
+            <div class="container pt-5" id="belajar">
+                <h3 class="text-center mb-3 font-dej">Mentor</h3>
+                <div class="row justify-content-center" id="mentor-list"></div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="p-5 bg-img-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 font-cam">
+                    <div class="row">
+                        <div class="col-8 text-center">
+                            <h2 class="font-kris">Belajar Bareng</h2>
+                            <h4>Belajar Bersama Kami Lebih Mudah</h4>
+                            <p class="lead">Karena Kami Hadir Membawa Solusi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center font-nir">
+                    <p>
+                        Kantor: <br>
+                        Surabaya, Jawa Timur
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        $(window).scroll(() => {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        })
+    </script>
+</body>
+
+</html>
